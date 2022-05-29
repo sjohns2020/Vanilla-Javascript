@@ -1,0 +1,75 @@
+body {
+    color: #D0E4F5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #D0E4F5;
+    background-image: url("https://play-lh.googleusercontent.com/HUuQc4Zpl6x7fUyX-jFMmcuUbW77REw4UKl5rfhHfP4VY6ctBU1w1I_RZWsXaojFgIo");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    background-size: cover;
+}
+
+body > h1 {
+    font-size: 5em;
+    align-content: center;
+    padding-left: 20px;
+
+}
+
+#header {
+    display: flex;
+    justify-content: flex-start;
+    font-size:30px;
+    width:100%;
+    height:100px;
+    margin:40px;
+}
+
+body > section > h1 {
+    padding-left: 50px;
+}
+
+
+#form {
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.3);
+    transition: 0.3s;
+    background-color: darkslategray;
+    padding: 20px;
+}
+
+#text-inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    
+    background-color: wheat;
+    margin: 5px;
+    display: flex;
+  }
+
+#description  {
+
+    background-color: wheat;
+    margin: 5px;
+    display: flex;
+}
+
+.list {
+    border: 2px;
+    margin: 20px;
+
+}
+
+#todo-list-div {
+    background-color: aquamarine;
+    margin: 20px;
+    border: 2px greenyellow;
+}
+
+#todo-list-ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="../src/app.js"></script>
+    <title>To Do List</title>
+</head>
+<body>
+    <section id="header">
+        <img src="../src/todoicon.webp" alt="todo logo">
+        <h1>My TO DO app!</h1>
+    </section>  
+    <section id="form">
+        <form id="new-todo-form">
+            <div id="text-inputs">
+                <label for="todo-title">Title:</label>
+                <input type="text" id="title" required>
+
+                <label for="todo-description">Description:</label>
+                <textarea name="description" id="description" cols="20" rows="2"></textarea>
+
+            </div> 
+            <label for="priority">Barista Task</label>
+            <input type="radio" name="priority1" id="priority" value="barista-task">
+            <label for="priority">SSV Task</label>
+            <input type="radio" name="priority" id="priority" value="ssv-task">
+            <label for="priority">ASM Task</label>
+            <input type="radio" name="priority" id="priority" value="asm-task">
+            <label for="priority">SM Task</label>
+            <input type="radio" name="priority" id="priority" value="sm-task">
+
+
+            <input type="submit" value="Submit" id="todo-save-button">
+
+        </form>
+    </section>
+    <div class="todo-list-div">
+        <ul id="todo-list-ul">
+        </ul>
+        <button id="delete-all"> Clear Barista Tasks </button>
+    </div>
+    &copy;
+</body>
+</html>
